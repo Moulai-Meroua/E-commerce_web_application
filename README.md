@@ -15,6 +15,19 @@ A comprehensive, production-ready Full-Stack e-commerce web application that del
 - **Frontend:** HTML5, CSS3, JavaScript ( framework used Angular )
 - **Backend:**  Node.js 
 
+## photos
+
+![prodact](photos/prodact.png)
+
+![prodact](photos/likedpro.png)
+
+![prodact](photos/pro.png)
+
+![cart](photos/shopingcart.png)
+
+![adminPage](photos/admin.png)
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
