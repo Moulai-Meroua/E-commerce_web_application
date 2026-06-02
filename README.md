@@ -1,6 +1,29 @@
-# Sil3at
+# 🛒 Full-Stack E-Commerce Platform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+A comprehensive, production-ready Full-Stack e-commerce web application that delivers a seamless shopping experience for customers while providing robust management tools for store administrators.
+
+## ✨ Key Features
+
+### 🛍️ Customer Experience
+- **Product Discovery:** Browse products dynamically by categories with advanced search and filtering options.
+- **Cart & Wishlist:** Fully functional shopping cart and wishlist systems to manage items before purchasing.
+- **Checkout System:** Secure checkout simulation with shipping details management and order summary.
+- **Responsive Design:** Optimized for all screen sizes, from mobile devices to desktop monitors.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript ( framework used Angular )
+- **Backend:**  Node.js 
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following installed on your machine:
+- Node.js & npm 
+- Database Server 
+
+
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
 ## Development server
 
@@ -26,3 +49,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 "E-commerce web application" 
+
