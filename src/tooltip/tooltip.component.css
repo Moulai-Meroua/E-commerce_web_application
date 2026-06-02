@@ -1,0 +1,30 @@
+.tooltip {
+    content: "";
+    position: absolute;
+    background: rgb(105, 105, 105);
+    border: 1px solid #222;
+    color: #1f1e1e;
+    width: 295px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    padding: 10px 15px;
+}
+
+.tooltip::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 0.5em solid #222;
+    border-left: 0em solid transparent;
+    border-right: 0.5em solid transparent;
+    transform: translateY(-48px) rotate(15deg);
+    opacity: 0;
+  }
+
+  .po:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+  }

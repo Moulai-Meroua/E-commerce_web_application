@@ -1,0 +1,13 @@
+<section id="cate">
+        <button class="categorie">{{pop}}</button>
+    <div class="xt">
+        <div class="container">
+            @for (pro of data; track $index; let i=$index){
+              <app-pro [pro]="pro" (iteme)="addToCart($event)" *ngIf="i<pronum"></app-pro> }
+            </div>
+              <button class="more" (click)="showmore()" *ngIf="data.length>pronum">Show more</button>
+    </div>
+</section>
+<!--        @for (cate of Categories; track $index){
+        [ngClass]="{active:$index==cate}
+-->

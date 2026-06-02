@@ -1,0 +1,26 @@
+<div class="proinca">
+    <a href="/product/{{pro.product.id}}"><img src="{{pro.product.urlImg}}" class="img"></a>
+    <div>
+       <p class="name"><a href="/product/{{pro.product.id}}" class="lin">{{pro.product.name}}</a></p>
+       <b class="pri">{{pro.product.priz}} DA</b>
+    </div>
+    <div>
+        <p class="t">total</p>
+        <b class="nt">{{pro.product.priz * pro.quantity}} DA</b>
+     </div>
+     <div class="d-flex" class="pom">
+        <button class="parn" (click)="minz(pro)">-</button>
+        <input type="number" class="qua" (change)="savechange()" [(ngModel)]="pro.quantity" min="1" max="{{pro.product.pieces}}">
+        <button class="parz" (click)="plus(pro)">+</button>
+    </div>    
+    <button class="del" (click)="Delete(pro)"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M267.33-120q-27.5 0-47.08-19.58-19.58-19.59-19.58-47.09V-740H160v-66.67h192V-840h256v33.33h192V-740h-40.67v553.33q0 27-19.83 46.84Q719.67-120 692.67-120H267.33Zm425.34-620H267.33v553.33h425.34V-740Zm-328 469.33h66.66v-386h-66.66v386Zm164 0h66.66v-386h-66.66v386ZM267.33-740v553.33V-740Z"/></svg></button>
+    <!--/* From Uiverse.io by KSAplay */--> 
+    <label class="container">
+      <input checked="checked" type="checkbox" [(ngModel)]="chek" >
+      <div class="checkmark">
+        <svg viewBox="0 0 256 256">
+        <rect fill="none" height="256" width="256"></rect>
+        <path d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z" stroke-width="20px" stroke="#222" fill="none"></path></svg>
+      </div>
+    </label>
+</div>

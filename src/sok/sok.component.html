@@ -1,0 +1,55 @@
+<section class="sil">
+    <div class="mis">
+      <img src="{{data.urlImg}}" class="img">
+      <h3 class="coco">{{data.name}}</h3>
+      <button class="pri">{{data.priz}} DA </button>
+      <ul class="oo">
+        <li class="ii">ID               :   <label class="pp">{{data.id}}</label></li>
+        <li class="ii">Categorie        :   <a href="/Categorie/{{data.Categorie}}" class="pp" id="f">{{data.Categorie}}</a></li>
+        <li class="ii">Remaining pieces :   <label class="pp">{{data.pieces}}</label></li>
+        <li class="ii">The seller       :   <a href="/seller/{{data.seller}}" id="p" class="pp">{{data.seller}}</a></li>
+      </ul>
+       <div class="ss">  
+  
+<button class="CartBtn"  *ngIf="!addBool" (click)="addBool = !addBool">
+  <span class="IconContainer"> 
+    <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <defs>  </defs> <g id="cart"> <circle r="1.91" cy="20.59" cx="10.07" class="cls-1"></circle> <circle r="1.91" cy="20.59" cx="18.66" class="cls-1"></circle> <path d="M.52,1.5H3.18a2.87,2.87,0,0,1,2.74,2L9.11,13.91H8.64A2.39,2.39,0,0,0,6.25,16.3h0a2.39,2.39,0,0,0,2.39,2.38h10" class="cls-1"></path> <polyline points="7.21 5.32 22.48 5.32 22.48 7.23 20.57 13.91 9.11 13.91" class="cls-1"></polyline> </g> </g></svg>  </span>
+  <p class="text">Add to Cart</p>
+</button>    
+<div *ngIf="addBool" class="didi">
+  <input type="number"  [(ngModel)]="beg" class="cam" min="1" max="{{data.pieces}}">
+  <button class="add" (click)="two() ; addBool = !addBool" ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000" class="svg"><path d="M440-600v-120H320v-80h120v-120h80v120h120v80H520v120h-80ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"/></svg></button>
+</div>
+<div class="like-wrapper">
+  <input class="check" type="checkbox" id="like-toggle" [(ngModel)]="chek" (change)="Like()"/>
+  <label class="container" for="like-toggle">
+    <svg
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+      class="icon inactive"
+    >
+      <path
+        d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"
+      ></path>
+    </svg>
+    <svg
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+      class="icon active"
+    >
+      <path
+        d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+      ></path>
+    </svg>
+    <div class="checkmark"></div>
+    <span class="like-text">Like</span>
+  </label>
+</div>
+      </div>
+    </div>
+    <div class="description">
+        <h2 class="dis">Description</h2>
+        <p class="pa">{{data.description}}</p>
+    </div>
+</section>
+

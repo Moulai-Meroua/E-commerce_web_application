@@ -1,0 +1,221 @@
+{
+  "products": [
+    {
+      "id": "bcfa",
+      "name": "Adidas sportif shoe ",
+      "priz": "2000",
+      "urlImg": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bd43ce71f589498ab6b1aad6009a0e6e_9366/Superstar_Shoes_White_EG4958_07_standard.jpg",
+      "Categorie": "shoes",
+      "pieces": "50",
+      "description": "color : white    ,     size  : 39",
+      "seller": "Adidas"
+    },
+    {
+      "id": "a3cc",
+      "name": "blue dress ",
+      "priz": "3500",
+      "urlImg": "https://i.pinimg.com/564x/ac/21/c5/ac21c559f0455dc9a025a625cddfb75f.jpg",
+      "Categorie": "cloths",
+      "pieces": "20",
+      "description": "color : blue    ,     size  : 36",
+      "seller": "clothing store"
+    },
+    {
+      "id": "08b0",
+      "name": "silicon hair brush",
+      "priz": "500",
+      "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAOOktiB_IzdYOrnQ-ba0H8kjBmQv5NoTSig&s",
+      "Categorie": "accessories",
+      "pieces": "20",
+      "description": "color : pink   ",
+      "seller": "cosmetic"
+    },
+    {
+      "id": "0b42",
+      "name": "the boys T-shirt",
+      "priz": "1500",
+      "urlImg": "https://rukminim2.flixcart.com/image/850/1000/xif0q/t-shirt/t/e/0/l-st-theboys-black-smartees-original-imagnqszzzzyuzru.jpeg?q=90&crop=true",
+      "Categorie": "cloths",
+      "pieces": "20",
+      "description": "color : black",
+      "seller": "clothing store"
+    },
+    {
+      "id": "ac57",
+      "name": "yellow bucket hat",
+      "priz": "900",
+      "urlImg": "https://media.istockphoto.com/id/1453988945/photo/yellow-bucket-hat-isolated-on-white.jpg?s=612x612&w=0&k=20&c=Dwt6ToZZBqfZOiHj7S4lNZfBx4CsPM9_WEa8e4SPZC8=",
+      "Categorie": "cloths",
+      "pieces": "20",
+      "description": "color : yellow",
+      "seller": "clothing store"
+    },
+    {
+      "id": "1d80",
+      "name": "laidys watche ",
+      "priz": "1000",
+      "urlImg": "https://www.carlington.in/cdn/shop/files/Carlington_elite_analog_ladies_watch_CT_2007_roseblack.jpg?v=1696689556&width=2400",
+      "Categorie": "accessories",
+      "pieces": "20",
+      "description": "color : brown ; magnate holder  ",
+      "seller": "cosmetic"
+    },
+    {
+      "id": "abf7",
+      "name": "Rouge à lèvre",
+      "priz": "1200",
+      "urlImg": "https://www.mustbeauty.dz/wp-content/uploads/2020/09/3614273325769-1966-main.jpg",
+      "Categorie": "make-up",
+      "pieces": "100",
+      "description": "color : red  ;  degree : 200 ",
+      "seller": "cosmetic"
+    },
+    {
+      "id": "be61",
+      "name": "1Kg Potatoes",
+      "priz": "100",
+      "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4nlhva7hn8fdS8wpuGP6qOEUYs5WXDcZ-Q&s",
+      "Categorie": "vegetables",
+      "pieces": "2000",
+      "description": "fresh   ;   best result when frying",
+      "seller": "vegetebles seller"
+    },
+    {
+      "id": "939e",
+      "name": "Brooks sportif shoe ",
+      "priz": "3000",
+      "urlImg": "https://cdn.thewirecutter.com/wp-content/media/2024/05/running-shoes-2048px-9718.jpg",
+      "Categorie": "shoes",
+      "pieces": "50",
+      "description": "color : Black     ,     size  : 39",
+      "seller": "Brooks"
+    },
+    {
+      "id": "5559",
+      "name": "NIKE sportif shoe ",
+      "priz": "3000",
+      "urlImg": "data:image/jpeg;base64,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",
+      "Categorie": "shoes",
+      "pieces": "50",
+      "description": "color : Black     ,     size  : 39",
+      "seller": "NIKE"
+    },
+    {
+      "id": "ea6b",
+      "name": "sofa",
+      "priz": "10000",
+      "urlImg": "https://th.bing.com/th/id/OIP.YGivG-0urXYZ1vetQ_IThAAAAA?rs=1&pid=ImgDetMain",
+      "Categorie": "furniture",
+      "pieces": "5",
+      "description": "color : gray  ",
+      "seller": "Ashley"
+    },
+    {
+      "id": "00ba",
+      "name": "Amir Floor Cleaner",
+      "priz": "300",
+      "urlImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bdb8df144549679.628e44a30bfdf.jpg",
+      "Categorie": "cleaning materials",
+      "pieces": "500",
+      "description": "color : baby pink   ;   the scent of : flower garden   ",
+      "seller": "Amir clean"
+    },
+    {
+      "id": "37ea",
+      "name": "Tomatoes",
+      "priz": "50",
+      "urlImg": "https://th.bing.com/th/id/R.953ba3feddf0ee82802167b51b6db579?rik=6ngkuX4vLWX4GQ&pid=ImgRaw&r=0",
+      "Categorie": "vegetebles",
+      "pieces": "500",
+      "description": "color : red  ",
+      "seller": "vegetebles seller"
+    },
+    {
+      "id": "68d3",
+      "name": "Wireless Earbuds Pro",
+      "priz": "3000",
+      "urlImg": "https://ae01.alicdn.com/kf/Sc520f1d8a27b42a2b422c07182515a8du.jpg",
+      "Categorie": "Electronic devices",
+      "pieces": "50",
+      "description": " Features: Noise Cancelling , 20h Battery Life ; Color: Black   ",
+      "seller": " SoundTech"
+    },
+    {
+      "id": "4fcf",
+      "name": "Leather Backpack",
+      "priz": "2500",
+      "urlImg": "https://th.bing.com/th/id/OIP.Rmr_VEcNX5KOhb3slEb_EgHaHa?rs=1&pid=ImgDetMain",
+      "Categorie": "accessories",
+      "pieces": "50",
+      "description": "  Color: White ; Material: Genuine Leather   ",
+      "seller": " Chic Bags"
+    },
+    {
+      "id": "4554",
+      "name": "Cotton Graphic T-Shirt",
+      "priz": "2000",
+      "urlImg": "https://th.bing.com/th/id/R.d11ec24b1aa41f0a8adf020e36ed0259?rik=G84OTqpf91VPtg&riu=http%3a%2f%2fnautankishaala.com%2fcdn%2fshop%2fproducts%2ftjjkt1.jpg%3fv%3d1654772943&ehk=2AQMvxtVuhcQYDCJiuBIcgpJZ5npafg6w6FP7SKffhk%3d&risl=&pid=ImgRaw&r=0",
+      "Categorie": "cloths",
+      "pieces": "10",
+      "description": "  Color: White ; Material: Cotton   ",
+      "seller": " Trendy Tees"
+    },
+    {
+      "id": "91ed",
+      "name": "Alien",
+      "priz": "50000",
+      "urlImg": "../alien.jpg",
+      "Categorie": "Martian",
+      "pieces": "1",
+      "description": "  Color: alien color ",
+      "seller": " NASA"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "7f9d",
+      "Categorie": "shoes",
+      "url": "https://cdn-icons-png.flaticon.com/512/5499/5499242.png"
+    },
+    {
+      "id": "ce1f",
+      "Categorie": "cloths",
+      "url": "https://cdn-icons-png.flaticon.com/512/6683/6683937.png"
+    },
+    {
+      "id": "3f5e",
+      "Categorie": "accessories",
+      "url": "https://cdn-icons-png.flaticon.com/512/16770/16770411.png"
+    },
+    {
+      "id": "ed8d",
+      "Categorie": "make-up",
+      "url": "https://cdn-icons-png.flaticon.com/512/6075/6075201.png"
+    },
+    {
+      "id": "41df",
+      "Categorie": "furniture",
+      "url": "https://cdn-icons-png.flaticon.com/512/5029/5029074.png"
+    },
+    {
+      "id": "1c38",
+      "Categorie": "home appliances",
+      "url": "https://cdn-icons-png.flaticon.com/512/10982/10982497.png"
+    },
+    {
+      "id": "f21b",
+      "Categorie": "Electronic devices",
+      "url": "https://cdn-icons-png.flaticon.com/512/2460/2460073.png"
+    },
+    {
+      "id": "8ef3",
+      "Categorie": "Toys",
+      "url": "https://image.pngaaa.com/855/3517855-middle.png"
+    },
+    {
+      "id": "00ea",
+      "Categorie": "cleaning materials",
+      "url": "https://cdn-icons-png.flaticon.com/512/5029/5029343.png"
+    }
+  ]
+}

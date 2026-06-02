@@ -1,0 +1,375 @@
+#po{
+    border: 2px solid #fcfcbd;
+    height: 390px;
+    width: 350px;
+    border-radius: 30px;
+    position: relative;
+    text-decoration: none;
+    border: 2px solid #222;
+    background-color: #fdfdf0;
+}
+#pho{
+    border-radius: 05%;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    border: 2px solid #222;
+}
+    
+    #buy{
+    padding: 1.5px 46px;
+    border-radius: 10px;
+    background-color: rgb(214, 235, 28);
+    color: white;
+    font-family: "Rubik", sans-serif;
+    border: 1.5px solid black;
+    font-size: 1.3em;
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    cursor: pointer;
+}
+.svg1{
+    width: 42px;
+    height: 32px;
+    margin-top: 11px;
+}
+#buy:hover{
+    background-color: rgb(29, 177, 73);
+}
+#pri{
+    font-family: "Rubik", sans-serif;
+    position: relative;
+    font-size: 30px;
+    top: 165px;
+    left: -15px;
+    text-align: right;
+    color: black;
+}
+#F{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 205px;
+    left: 10px;
+    text-align: left;
+    width: 334px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.icon{
+    color: rgb(12, 12, 12);
+}
+
+#fofo{
+    color: black;
+    text-decoration: none;
+}
+
+.d{
+    display: block;
+    background-color: #222;
+
+    .cam{
+        width: 80px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid #222;
+        padding: 15.5px 0px;
+        position: absolute;
+        top: 310px;
+        left: 20px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .add{
+        background-color: #20a7c9;
+        color: #fdfdfc;    
+        border: 1px solid #222;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 2px 0px;
+        width: 55px;
+        position: absolute;
+        top: 310px;
+        left: 101px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .svg{
+        height: 32px;
+        width: 29px;
+        margin-top: 11px;
+    }
+
+    .add:hover{
+        background-color: #137992;
+    }
+
+    .add:active{
+        background-color: #5a8691;
+    }
+
+}
+
+/*-----*/
+
+/* From Uiverse.io by Yaya12085 */ 
+.ui-like {
+    --icon-size: 24px;
+    --icon-secondary-color: rgb(65, 63, 63);
+    --icon-hover-color: rgb(211, 205, 205);
+    --icon-primary-color: rgb(230, 26, 26);
+    --icon-circle-border: 1px solid var(--icon-primary-color);
+    --icon-circle-size: 35px;
+    --icon-anmt-duration: 0.3s;
+  }
+  
+  .ui-like input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: none;
+  }
+  
+  .ui-like .like {
+    width: var(--icon-size);
+    height: auto;
+    fill: var(--icon-secondary-color);
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    top: 38px;
+    left: 268px;
+  }
+  
+  .like::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    -webkit-box-shadow: 0 30px 0 -4px var(--icon-primary-color),
+      30px 0 0 -4px var(--icon-primary-color),
+      0 -30px 0 -4px var(--icon-primary-color),
+      -30px 0 0 -4px var(--icon-primary-color),
+      -22px 22px 0 -4px var(--icon-primary-color),
+      -22px -22px 0 -4px var(--icon-primary-color),
+      22px -22px 0 -4px var(--icon-primary-color),
+      22px 22px 0 -4px var(--icon-primary-color);
+    box-shadow: 0 30px 0 -4px var(--icon-primary-color),
+      30px 0 0 -4px var(--icon-primary-color),
+      0 -30px 0 -4px var(--icon-primary-color),
+      -30px 0 0 -4px var(--icon-primary-color),
+      -22px 22px 0 -4px var(--icon-primary-color),
+      -22px -22px 0 -4px var(--icon-primary-color),
+      22px -22px 0 -4px var(--icon-primary-color),
+      22px 22px 0 -4px var(--icon-primary-color);
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .like::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: var(--icon-circle-border);
+    opacity: 0;
+  }
+
+
+  #tooltip{
+    content: "";
+    background: rgb(105, 105, 105);
+    border: 1px solid #222;
+    color: #1f1e1e;
+    width: 295px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    transform: translate(-50%,-100%);
+    padding: 10px 15px;
+    pointer-events: none;
+    z-index: 1000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+    /*---------
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    --translate-y: 100%;*/
+    
+  }
+
+  .tooltext{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  #tooltip::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-bottom: 0.5em solid #222;
+    border-left: 0em solid transparent;
+    border-right: 0.5em solid transparent;
+    transform: translateY(-48px) rotate(15deg);
+    opacity: 0;
+  }
+
+  #po:hover #tooltip{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* actions */
+  
+  .ui-like:hover .like {
+    fill: var(--icon-hover-color);
+  }
+  
+  .ui-like input:checked + .like::after {
+    -webkit-animation: circles var(--icon-anmt-duration)
+      cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation: circles var(--icon-anmt-duration)
+      cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    -webkit-animation-delay: var(--icon-anmt-duration);
+    animation-delay: var(--icon-anmt-duration);
+  }
+  
+  .ui-like input:checked + .like {
+    fill: var(--icon-primary-color);
+    -webkit-animation: like var(--icon-anmt-duration) forwards;
+    animation: like var(--icon-anmt-duration) forwards;
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  
+  .ui-like input:checked + .like::before {
+    -webkit-animation: circle var(--icon-anmt-duration)
+      cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation: circle var(--icon-anmt-duration)
+      cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    -webkit-animation-delay: var(--icon-anmt-duration);
+    animation-delay: var(--icon-anmt-duration);
+  }
+  
+  @-webkit-keyframes like {
+    50% {
+      -webkit-transform: scaleY(0.6);
+      transform: scaleY(0.6);
+    }
+  
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+  }
+  
+  @keyframes like {
+    50% {
+      -webkit-transform: scaleY(0.6);
+      transform: scaleY(0.6);
+    }
+  
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+  }
+  
+  @-webkit-keyframes circle {
+    from {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+  
+    90% {
+      width: var(--icon-circle-size);
+      height: var(--icon-circle-size);
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes circle {
+    from {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+  
+    90% {
+      width: var(--icon-circle-size);
+      height: var(--icon-circle-size);
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes circles {
+    from {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  
+    40% {
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes circles {
+    from {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+  
+    40% {
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+      opacity: 0;
+    }
+  }

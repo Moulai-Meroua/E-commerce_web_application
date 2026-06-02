@@ -1,0 +1,16 @@
+<div class="categories">
+    <div>
+        <h2 id="title">categories</h2>
+    </div>
+    <div class="buts">
+            <button id="cab" (click)="cab()"><</button>
+            <button id="ba3" (click)="ba3()">></button>   
+    </div>
+    <div class="imgList">
+     @for (cat of Categories; track $index){  
+        <a href="/Categorie/{{cat.Categorie}}" class="rab"><img class="cit" src="{{cat.url}}" ></a>
+      }
+    </div>
+</div>
+
+<!--@for (pro of Categories; track $index){-->

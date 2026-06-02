@@ -1,0 +1,10 @@
+<section id="cate">
+    <button class="seller">{{seller}}</button>
+<div class="xt">
+    <div class="container">
+    @for (pro of diva; track $index; let i=$index){
+      <app-pro [pro]="pro" (iteme)="addToCart($event)" *ngIf="i<pronum"></app-pro> }
+    </div>
+      <button class="more" (click)="showmore()" *ngIf="diva.length>pronum">Show more</button>
+  </div>
+</section>

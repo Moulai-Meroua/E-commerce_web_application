@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #64d488;
+    padding: 5px 20px;
+    width: 92.55%;
+    position: relative;
+    right:-5%;
+    
+}
+header p{
+    color: white;
+    font-size: 3em;
+}
+span{
+    color: #005c1d;
+    font-weight: 700;
+}
+img{
+    width: 150px;
+    margin: -10px;
+}
+/*.logo{
+    
+}*/
+label{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+}

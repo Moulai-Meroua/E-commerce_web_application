@@ -1,0 +1,9 @@
+<div class="xt">
+  <div class="container">
+  @for (item of products ; track index ; let i=$index){
+  <app-pro [pro]="item" (iteme)="viri($event)" *ngIf="i<pronum"></app-pro>
+}
+  </div>
+<button class="more" (click)="showmore()" *ngIf="products.length>pronum">Show more</button>
+</div>
+

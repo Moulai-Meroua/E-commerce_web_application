@@ -1,0 +1,23 @@
+<div class="moves">
+<div class="move"
+[style]="{ 'background-image': 'url(' + moves[currentMove].url + ')' ,
+ opacity : good ? 0 : 1 }">
+    <div>
+        <button class="next" (click)="next()"><</button>
+        <button class="previos" (click)="previos()">></button>    
+    </div>
+     <div id="ind">
+        @for (move of moves; track $index){
+            <div class="indi"
+            (click)="jump($index)"
+             [ngClass]="{active:$index==currentMove}"></div>
+        }
+     </div>
+    </div>
+</div>
+
+
+
+<!--
+ <a [href]= "{'href':'url('+ moves[currentMove].href +')'}"></a>
+-->

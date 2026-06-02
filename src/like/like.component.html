@@ -1,0 +1,25 @@
+<section class="like">
+    <h2 class="likelist">Like list</h2>
+    <div class="xt">
+    @for (pic of like; track $index){
+        <div class="lp">
+            <a href="/product/{{pic.product.id}}"><img class="pimg" src="{{pic.product.urlImg}}"></a>
+            <div class="info">
+                <hr class="hr">
+                <p class="p"><a class="ppro" href="/product/{{pic.product.id}}">{{pic.product.name}}</a></p>
+                <div class="fle">
+                    <b class="pr">{{pic.priz}} DA</b>
+                    <button class="del" (click)="delet($index)"><span class="remove"><svg viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"></path> </svg></span></button>
+                </div>
+         </div>
+        </div>}
+    </div>
+</section>
+<script>
+    const element = document.getElementsByClassName('ppro');
+    const max = 21;
+    
+    if(element.textContent.length > max){
+        element.textContent = element.textContent.slice(0,max - 3) + '...';
+    }
+</script>

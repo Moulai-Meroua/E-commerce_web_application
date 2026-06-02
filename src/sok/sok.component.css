@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+.sil{
+    /*background-color: #e9e7e7;
+    font-family: "PT Sans", sans-serif;
+    font-size: 23px;
+    color: #222;
+    position: relative;
+    left: -30px;
+    margin: 0px 100px;
+    padding: 373px 18.8px;
+    width: 92.53%;*/
+    font-family: "PT Sans", sans-serif;
+    font-size: 23px;
+    color: #222;
+    position: relative;
+    left: -30px;
+    margin: 0px 100px;
+    padding: 400px 18.8px;
+    width: 92.53%;
+    background-color: #e9e7e7;
+}
+
+.mis{
+    width: 97%;
+    height: 480px;
+    background-color: #fdfdfd;
+    box-shadow: 0px 0px 20px #222;
+    position: absolute;
+    top: 30px;
+    left: 17.5px;
+    border-radius: 10px;
+    color: #222;
+}
+.img{
+    width: 400px;
+    height: 450px;  
+    border-radius: 10px;
+    border: 1px solid #222;
+    position: relative;        
+    left: 17px;
+    top: 15px;
+}
+   
+.coco{
+  font-family: "Mingzat", sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 460px;
+    bottom: 465px;
+    text-align: left;
+    width: 640px;
+}
+
+.pri{
+    font-family: "Mingzat", sans-serif;
+    font-size: 30px;
+    background-color: rgb(247, 228, 217);
+    position: relative;
+    border: 2px solid rgb(250, 185, 159);
+    border-radius: 50px;
+    padding: 0px 20px;
+    right: -1105px;
+    bottom: 552px
+}
+
+.oo{
+    list-style: none;
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    top: -535px;
+    left: 396px;
+}
+
+.ii{
+    padding: 15px 10px;
+
+    .Colors{
+        list-style: none;
+        display: flex;
+        gap: 44px;
+        position: absolute;
+        top: 73px;
+        left: 166px;
+    }
+}
+
+
+.pp{
+    font-size: 25px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.CartBtn {
+    width: 241px;
+    height: 75px;
+    padding: 0.5%;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(13, 155, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: rgb(250, 246, 246);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .cart{
+    background-color: rgb(250, 246, 246);
+  }
+  .text {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 246, 246);
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 24.04px;
+    font-weight: 600;
+  }
+  
+  .CartBtn:hover .IconContainer {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:hover .text {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
+
+
+
+
+  /* From Uiverse.io by SalladShooter */ 
+.like-wrapper {
+    --gap: 0.5em;
+    --radius: 0.35em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    --dot-bg: #212121;
+    --dot-color: #313131;
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background: linear-gradient(
+          90deg,
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      linear-gradient(
+          var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+          transparent 1%
+        )
+        center / var(--dot-space) var(--dot-space),
+      var(--dot-color);
+    border: 0.1em solid #313131;
+    padding: 16px 55px;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  
+  .check[type="checkbox"] {
+    display: none;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -0.25em;
+    margin-bottom: -0.25em;
+  }
+  
+  .icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 0.5em;
+    fill: white;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .icon.active {
+    display: none;
+    fill: #f52121;
+  }
+  
+  .check[type="checkbox"]:checked + .container .icon.active {
+    display: inline-block;
+    animation: wiggle 0.5s ease-in-out;
+  }
+  
+  .check[type="checkbox"]:checked + .container .icon.inactive {
+    display: none;
+  }
+  
+  .like-text {
+    margin-left: 0.5em;
+    padding: 0.5em;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+  }
+  
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+  }
+
+  .ss{
+    position: absolute;
+    top: 297px;
+    left: 1035px;
+    gap: 10px;
+  }
+
+  .description{
+    width: 97%;
+    background-color: #fdfdfd;
+    box-shadow: 0px 0px 20px #222;
+    position: absolute;
+    top:550px;
+    border-radius: 10px;
+    color: #222;
+  }
+
+.dis{
+    font-family: "PT Sans", sans-serif;
+    font-size: 34px;
+    position: relative;
+    left: 55px;
+    margin: 12px 18px;
+}
+
+.pa{
+    color: #000000;
+    font-size: 26px;
+    padding: 6px 18px;
+}
+
+#p{
+  text-decoration: none;
+  color: #0d911e;
+}
+
+#f{
+  text-decoration: none;
+  color: rgb(57, 107, 172);
+}
+
+
+
+  .cam{
+    width: 175px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #222;
+    padding: 25.5px 0px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .add{
+    background-color: #20a7c9;
+    color: #fdfdfc;
+    border: 1px solid #222;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px 0px;
+    width: 65px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .svg{
+      height: 32px;
+      width: 29px;
+      margin-top: 11px;
+  }
+
+  .add:hover{
+      background-color: #137992;
+  }
+
+  .add:active{
+      background-color: #5a8691;
+  }
+
+.didi{
+  position: relative;
+    display: flex;
+    top: -12px;
+  /*display: flex;
+  top: -10px;
+  width: 242px;*/
+}
