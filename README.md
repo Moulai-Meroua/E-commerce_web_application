@@ -17,15 +17,15 @@ A comprehensive, production-ready Full-Stack e-commerce web application that del
 
 ## photos
 
-![prodact](photos/prodact.png)
+![prodact](photos/prodact.jpeg)
 
-![prodact](photos/likedpro.png)
+![prodact](photos/likedpro.jpeg)
 
-![prodact](photos/pro.png)
+![prodact](photos/pro.jpeg)
 
-![cart](photos/shopingcart.png)
+![cart](photos/shopingcart.jpeg)
 
-![adminPage](photos/admin.png)
+![adminPage](photos/admin.jpeg)
 
 
 ## 🚀 Getting Started
